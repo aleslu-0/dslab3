@@ -107,7 +107,7 @@ public:
 					root->setRight(deleteNode(root->getRight(), temp->getX()));
 				}
 				nodes--;
-				cout << "\ndeleted: " << key << endl;
+				//cout << "\ndeleted: " << key << endl;
 			}
 			else {
 				// If the key to be deleted is smaller 
